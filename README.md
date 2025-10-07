@@ -53,8 +53,8 @@ make
 ```
 
 ### File Format
-```text
 Passwords are stored in data.txt with this secure format:
+```text
 [USER]
 username password_hash encryption_key
 [PASSWORDS]
