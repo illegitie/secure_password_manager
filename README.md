@@ -69,6 +69,5 @@ service username encrypted_password_hex
 - Exception Safety: Proper error handling throughout
 
 ###🧑‍💻 Author
-
-illegitie
-Built with ❤️ and C++
+	illegitie
+	Built with ❤️ and C++
