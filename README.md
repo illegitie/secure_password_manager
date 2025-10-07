@@ -24,8 +24,9 @@ git clone https://github.com/illegitie/secure_password_manager
 cd secure_password_manager
 make
 ./password_manager
+```
 ---
-## Usage
+###  Usage
 ```bash
 ./password_manager
 
@@ -49,7 +50,7 @@ make
 
 # Logout
 > logout
-
+```
 
 ## File Format
 ```text
@@ -59,7 +60,7 @@ username password_hash encryption_key
 [PASSWORDS]
 service username encrypted_password_hex
 [END_USER]
-
+```
 
 ## Technical Details
 - Hash Table: Double hashing collision resolution
