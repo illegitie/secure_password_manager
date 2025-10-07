@@ -10,7 +10,7 @@ A secure, command-line password manager built from scratch in C++ with military-
 - **🛡️ Master Passwords** - Key derivation with Argon2
 - **⚡ Fast Lookups** - Custom hash table with double hashing
 - **📝 Clean CLI** - Simple, intuitive command-line interface
-
+---
 ## Installation
 
 ### Prerequisites
@@ -24,8 +24,9 @@ git clone https://github.com/illegitie/secure_password_manager
 cd secure_password_manager
 make
 ./password_manager
-
-### Usage
+---
+## Usage
+```bash
 ./password_manager
 
 # Register a new user
@@ -50,7 +51,8 @@ make
 > logout
 
 
-### File Format
+## File Format
+```text
 Passwords are stored in data.txt with this secure format:
 [USER]
 username password_hash encryption_key
@@ -59,7 +61,7 @@ service username encrypted_password_hex
 [END_USER]
 
 
-### Technical Details
+## Technical Details
 - Hash Table: Double hashing collision resolution
 - Resizing: Automatic growth/shrinking based on load factor
 - RAII: Automatic memory management
