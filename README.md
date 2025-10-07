@@ -52,7 +52,7 @@ make
 > logout
 ```
 
-## File Format
+### File Format
 ```text
 Passwords are stored in data.txt with this secure format:
 [USER]
@@ -62,9 +62,13 @@ service username encrypted_password_hex
 [END_USER]
 ```
 
-## Technical Details
+### Technical Details
 - Hash Table: Double hashing collision resolution
 - Resizing: Automatic growth/shrinking based on load factor
 - RAII: Automatic memory management
 - Exception Safety: Proper error handling throughout
 
+###🧑‍💻 Author
+
+illegitie
+Built with ❤️ and C++
