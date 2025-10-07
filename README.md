@@ -10,7 +10,7 @@ A secure, command-line password manager built from scratch in C++ with military-
 - **🛡️ Master Passwords** - Key derivation with Argon2
 - **⚡ Fast Lookups** - Custom hash table with double hashing
 - **📝 Clean CLI** - Simple, intuitive command-line interface
----
+
 ## Installation
 
 ### Prerequisites
