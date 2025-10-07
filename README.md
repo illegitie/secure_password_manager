@@ -68,6 +68,6 @@ service username encrypted_password_hex
 - RAII: Automatic memory management
 - Exception Safety: Proper error handling throughout
 
-###🧑‍💻 Author
-	illegitie
-	Built with ❤️ and C++
+### 🧑‍💻 Author: illegitie  
+Built with ❤️ and C++
+
