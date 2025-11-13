@@ -8,13 +8,17 @@ SOURCES=$(SRCDIR)/HT.cpp $(SRCDIR)/prime.cpp main.cpp $(SRCDIR)/PassMan.cpp $(SR
 
 TARGET=password_manager
 
-all: $(TARGET)
+all: $(TARGET) data.txt
 
 $(TARGET) : $(SOURCES)
-	$(CXX) $(CXXFLAGS) $(INCLUDES) $(SOURCES) -o $(TARGET)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(SOURCES) -o $(TARGET) 
+
+data.txt:
+	touch data.txt
+
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGET) data.txt
 
 run: $(TARGET)
 	./$(TARGET)
